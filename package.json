@@ -1,0 +1,32 @@
+{
+  "name": "unifecaf-flix-api",
+  "version": "1.0.0",
+  "description": "API REST UniFECAF Flix para controle e consulta de filmes usando Node.js, Express, Prisma e MySQL.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev --name init",
+    "prisma:studio": "prisma studio"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "rest",
+    "mvc",
+    "mysql",
+    "prisma",
+    "unifecaf"
+  ],
+  "author": "Sandro Santana",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "prisma": "^5.22.0"
+  }
+}

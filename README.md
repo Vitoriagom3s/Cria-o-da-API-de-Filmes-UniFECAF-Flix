@@ -103,7 +103,7 @@ http://localhost:3000/v1/controle-filmes/filme
 
 ## Autor
 
-Vitoria Gomes
+Sandro Santana
 
 
 ## 🖥 Parte visual demonstrativa
@@ -118,4 +118,4 @@ http://localhost:3000
 
 A página visual está em `public/index.html` e consome os endpoints da própria API para listar os filmes em cards e realizar busca por nome ou sinopse.
 
-Qualquer dúvida contate: viviamorimgomes08@gmail.com
+Consulte também o arquivo `COMO_ABRIR_VISUAL.md` para o passo a passo completo.
